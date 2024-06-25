@@ -21,5 +21,5 @@ function set_default_app() {
 	done
 }
 
-set_default_app "vivaldi-stable google-chrome-stable chromium firefox" x-www-browser
+set_default_app "brave-bin firefox" x-www-browser # TODO: Check if this is correct
 set_default_app "wezterm alacritty urxvt gnome-terminal" x-terminal-emulator

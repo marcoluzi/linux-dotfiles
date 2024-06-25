@@ -102,7 +102,7 @@ alias -s py='python'
 alias -s hs='runhaskell'
 alias -s php='php -f'
 alias -s {jpg,jpeg,png,bmp}='feh'
-alias -s mp3='mplayer'
+# alias -s mp3='mplayer'
 function extract() {
 	case $1 in
 		*.tar.gz|*.tgz) tar xzvf "$1" ;;
@@ -207,7 +207,7 @@ if [ -f /etc/arch-release ] ;then
 	fi
 fi
 
-alias screencast='wf-recorder -g "$(slurp)" -f ~/Pictures/wf_$(date "+%y%m%d-%H%M%S").mp4'
+# alias screencast='wf-recorder -g "$(slurp)" -f ~/Pictures/wf_$(date "+%y%m%d-%H%M%S").mp4'
 alias xterm-modifyOtherKyes='xterm -xrm "*modifyOtherKeys:1"'
 # alias xterm-modifyOtherKyes='xterm -xrm "*modifyOtherKeys:1" -xrm "*formatOtherKeys:1"'
 

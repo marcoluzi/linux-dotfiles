@@ -25,15 +25,9 @@ path=(
 	$HOME/.local/share/zsh/zinit/polaris/bin(N-/)
 	$HOME/bin(N-/)
 	$HOME/.local/bin(N-/)
-	$HOME/go/bin(N-/)
-	$HOME/.go/bin(N-/)
-	$HOME/.cargo/bin(N-/)
-	$HOME/.rustup/toolchains/*/bin(N-/)
-	$HOME/.nimble/bin(N-/)
 	$HOME/.yarn/bin(N-/)
 	# ./node_modules/.bin(N-/) # don't work relative path. so this set automatically by chpwd
 	$HOME/.config/yarn/global/node_modules/.bin(N-/)
-	$HOME/.deno/bin(N-/)
 	$path
 )
 export PATH
@@ -81,8 +75,6 @@ fi
 if [ -f "$ZHOMEDIR/.zshenv.local" ]; then
 	source "$ZHOMEDIR/.zshenv.local"
 fi
-
-export GOPATH=$HOME/.go
 
 export PS4='+%N:%i> '
 

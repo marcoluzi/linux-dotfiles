@@ -64,10 +64,10 @@ function main() {
 		source $current_dir/lib/arch-extra-setup/equipment.sh
 	fi
 
-	if [[ "$laptop" = true ]]; then
-		source $current_dir/lib/arch-extra-setup/udev/laptop-keyboard.sh
-		source $current_dir/lib/arch-extra-setup/udev/trackpoint.sh
-	fi
+	# if [[ "$laptop" = true ]]; then
+	# 	source $current_dir/lib/arch-extra-setup/udev/laptop-keyboard.sh
+	# 	source $current_dir/lib/arch-extra-setup/udev/trackpoint.sh
+	# fi
 
 	print_info ""
 	print_info "#####################################################"
