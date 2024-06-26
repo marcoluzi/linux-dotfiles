@@ -3,7 +3,7 @@
 # paru -S --noconfirm espanso-wayland
 # #paru -S --noconfirm espanso-bin
 # sudo pacman -S --noconfirm --needed fuse
-sudo pacman -S --noconfirm --needed discord steam
+sudo pacman -S --noconfirm --needed lesspipe discord steam
 paru -S --noconfirm --needed spotify 1password prismlauncher
 
 # lutris
