@@ -16,10 +16,10 @@ function install_extra() {
 		sudo pacman -S --noconfirm --needed brave-bin firefox
 		# sudo cp -rfL $(dirname "${BASH_SOURCE[0]:-$0}")/../../../install_scripts/lib/dotsinstaller/greetd/* /etc/greetd/
 		sudo pacman -S --noconfirm --needed sysstat alsa-utils
-		sudo pacman -S --noconfirm --needed fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-lua
+		# sudo pacman -S --noconfirm --needed fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-lua
 		# sudo pacman -S --noconfirm --needed fcitx-mozc fcitx-configtool fcitx-gtk3 fcitx-qt5
-		sudo pacman -S --noconfirm --needed ttf-dejavu noto-fonts-emoji ttf-font-awesome
-		source $(dirname "${BASH_SOURCE[0]:-$0}")/setup-fcitx.sh
+		# sudo pacman -S --noconfirm --needed ttf-dejavu noto-fonts-emoji ttf-font-awesome
+		# source $(dirname "${BASH_SOURCE[0]:-$0}")/setup-fcitx.sh
 	elif [[ $distro == "alpine" ]]; then
 		:
 	else
